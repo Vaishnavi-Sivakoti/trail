@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <h1>Weather Forecast</h1>
+    <main>
+        <label for="inp">Enter city name:</label>
+        <input type="text" placeholder="Enter city name" id="inp">
+        <button type="submit" onclick="myapp()">Submit</button> 
+    </main>
+    <div>
+        <p id="data">
+            Country:<br>
+            Maximum Temperature:<br>
+            Minimum Temperature:<br>
+        </p>
+        <div id="chart"></div>
+    </div>
+    <script src="srcipts/myapp.js"></script>
+</body>
+</html>
